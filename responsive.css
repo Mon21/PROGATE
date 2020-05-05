@@ -5,6 +5,11 @@
     margin-bottom: 50px;
   }
   
+  .anggota {
+    width: 50%;
+    margin-bottom: 50px;
+  }  
+    
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -19,6 +24,11 @@
   .lesson {
     width: 100%;
   }
+  
+  .anggota {
+    width: 50%;
+    margin-bottom: 50px;
+  }  
   
   footer {
     text-align: center;
@@ -38,7 +48,7 @@
   
   /* Tambahkan CSS untuk header-right */
   .header-right {
-    display:none;
+    display:relative;
   } 
   
   /* Tambahkan CSS untuk menu-icon */

@@ -9,6 +9,17 @@ body {
 
 a {
   text-decoration: none;
+  color:black;
+  padding:2vw;
+  font-family:monospace;
+  list-style-type: none;  
+  margin: 0 2vw;
+  /* our font-size will be 3% of the height of the viewport */
+  font-size: 3vh;
+}
+
+a:hover{
+  background-color: #C6E9FF;
 }
 
 .clear {
@@ -16,7 +27,7 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -121,7 +132,7 @@ header {
 .menu-icon {
   color:white;
   float:right;
-  display:none;
+  display:block;
 }
 
 
@@ -133,6 +144,15 @@ header {
   text-align: center;
 }
 
+.team-wrapper {
+  
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align : center;
+
+}
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -148,8 +168,17 @@ header {
   width: 25%;
 }
 
+.anggota {
+  float: left;
+  width: 20%;
+}
+
 .lesson-icon {
   position: relative;
+}
+
+.anggota-icon {
+  position : relative;
 }
 
 .lesson-icon p {
@@ -159,12 +188,20 @@ header {
   color: white;
 }
 
+.anggota-icon p {
+  position: relative;
+  top: 44%;
+  width: auto;
+  height:auto;
+  color:white;
+}
 .text-contents {
   width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
+  font-family: monospace;
 }
 
 .heading h3 {
@@ -193,6 +230,7 @@ header {
 .contact-form {
   padding-top: 100px;
   padding-left:80px;
+  position: relative;
 }
 
 /* Tambahkan CSS untuk tags <input> dan <textarea> */
@@ -203,6 +241,7 @@ textarea {
   padding:20px;
   font-size:18px;
   border:1px solid #dee7ec;
+  position:relative;
   }
 
 input {
@@ -212,15 +251,26 @@ input {
   padding:20px;
   font-size:18px;
   border:1px solid #dee7ec;
+  position: relative;
 }
 /* Tambahkan CSS untuk contact-submit */
 .contact-submit {
   background-color:#dee7ec;
-  color:#889eab;  
+  color:#889eab;
 }
 
 footer img {
   width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 footer p {
